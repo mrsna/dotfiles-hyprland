@@ -102,14 +102,15 @@
         "format": "{:%H:%M %d-%m-%Y}",
         // "timezone": "America/New_York",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%H:%M}"
     },
     "cpu": {
         "format": "{usage}% ",
         "tooltip": false
     },
     "memory": {
-        "format": "{}% "
+        // "format": "{}% ",
+        "format": "{used}/{total}GB "
     },
     "temperature": {
         // "thermal-zone": 2,
