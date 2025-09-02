@@ -56,8 +56,8 @@ ZSH_AUTOSUGGEST_PARTIAL_ACCEPT_WIDGETS=( end-of-line )
 ZSH_AUTOSUGGEST_ACCEPT_WIDGETS=( end-of-line )
 
 #bind tab to autocomplete
-#bindkey '^ ' autosuggest-accept
-bindkey '^[[C' autosuggest-accept
+bindkey '^ ' autosuggest-accept
+#bindkey '^[[C' autosuggest-accept
 
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
